@@ -1,0 +1,8 @@
+Reminders for me:
+
+1. Create HealthComponent based on ActorComponent
+2. Modify Projectile
+3. Create BP_Block and add new HealthComponent to that block
+  - Don't forget to simulate physics (the code looks for this)
+  - In the Event Graph, the OnDeath (Health) event should call the Destroy Actor node
+4. Run it!
