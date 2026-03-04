@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Functionality for our custom health component
 
 
 #include "HealthComponent.h"
