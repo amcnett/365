@@ -5,6 +5,9 @@
 APickupSpawner::APickupSpawner()
 {
     PrimaryActorTick.bCanEverTick = false;
+
+    // Needed to give our player a transform so that we can them position it in the level
+    RootComponent = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
 }
 
 void APickupSpawner::BeginPlay()
