@@ -1,6 +1,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "RollerCharacter.h"
 #include "GameFramework/PlayerController.h"
 #include "RollerPlayerController.generated.h"
 
